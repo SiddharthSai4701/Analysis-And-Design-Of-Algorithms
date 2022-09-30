@@ -21,7 +21,7 @@ M = int(input("Enter capacity of knapsack: "))
 x = []
 
 # t is the list of tuples containing tuples
-# Each element is a tuple. The 0th index of each tuple conists of a tuple containing a tuple and an index
+# Each element is a tuple. The 0th index of each tuple conists of a tuple containing a tuple an index
 # Each inner tuple contains a weight, profit pair corresponding to an object
 # initially t is empty but is later populated based on the entries from the user
 t = []
@@ -74,7 +74,7 @@ selected = []
 for i in range(len(w)):
     
     # if the capacity of the bag is greater than the weight of the object, select the object. Else, reject it
-    if M-t[i][0][0]>0:
+    if M-t[i][0][0]>=0:
         
         # if the object is selected, update the corresponding index in the original solution array, x
         x[i] = 1
