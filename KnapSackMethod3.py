@@ -10,14 +10,14 @@ Created on Fri Sep 30 14:50:16 2022
 """
 
 # w is the list of weights
-#w = list(map(int,input("Enter the values of the weights: ").split()))
-w = [20,25,10,15]
+w = list(map(int,input("Enter the values of the weights: ").split()))
+
 # p is the list of profits
-#p = list(map(int,input("Enter the values of the profits: ").split()))
-p = [20,40,35,45]
+p = list(map(int,input("Enter the values of the profits: ").split()))
+
 # M is the total capacity of the knapsack
-#M = int(input("Enter capacity of knapsack: "))
-M = 40
+M = int(input("Enter capacity of knapsack: "))
+
 # x is the solution set but the elements aren't arranged in order
 x = []
 
